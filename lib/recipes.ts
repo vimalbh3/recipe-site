@@ -728,7 +728,7 @@ export const recipes: Recipe[] = [
     slug: "mediterranean-chicken-sheet-pan",
     title: "Mediterranean Chicken Sheet Pan",
     category: "Chicken",
-    thumbnail: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=800&q=80",
+    thumbnail: "/Mediterranean-Chicken-Sheet-Pan-Dinner.webp",
     videoUrl: "https://www.instagram.com/reel/DX9pTMjPHnS/embed/",
     videoType: "instagram",
     shortDescription: "Yoghurt-marinated chicken thighs roasted on one tray with peppers and red onion, served over rice with a fresh lemon-dill yoghurt sauce.",
