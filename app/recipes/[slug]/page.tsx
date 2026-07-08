@@ -123,7 +123,7 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
                   { label: "Protein", value: recipe.protein, unit: "g" },
                   { label: "Carbs", value: recipe.carbs, unit: "g" },
                   { label: "Fat", value: recipe.fats, unit: "g" },
-                ].map((m) => (
+                ].filter((m) => m.value !== undefined).map((m) => (
                   <div key={m.label}>
                     <p className="text-base font-bold" style={{ color: "var(--accent)" }}>
                       {m.value}{m.unit !== "kcal" ? m.unit : ""}
